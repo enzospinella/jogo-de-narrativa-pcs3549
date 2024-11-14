@@ -284,7 +284,7 @@ define gui.page_spacing = 0
 define gui.slot_spacing = 15
 
 ## A posição do texto do menu principal.
-define gui.main_menu_text_xalign = 1.0
+define gui.main_menu_text_xalign = 0.2
 
 
 ## Quadros #####################################################################
