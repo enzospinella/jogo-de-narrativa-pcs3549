@@ -1,43 +1,1180 @@
-2024-11-14 23:38:30 UTC
-Linux-6.8.0-48-generic-x86_64-with-glibc2.39
+2024-11-21 19:48:45 UTC
+Linux-6.9.3-76060903-generic-x86_64-with-glibc2.35
 Ren'Py 8.3.2.24090902
 
-Early init took 0.03s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.01s
+Early init took 0.09s
+Loading error handling took 0.05s
+Loading script took 0.30s
+Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
+Running init code took 0.08s
+Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.01s
+Reloading save slot metadata took 0.02s
 Index archives took 0.00s
-Backing up script files to '/home/od4ir/.renpy/backups/HogUSP':
-Dump and make backups took 0.03s
+Dump and make backups took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.02s
+Initial gc took 0.05s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.02s
+Init translation took 0.05s
 Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.03s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.09s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
+Save bytecode. took 0.03s
 Running _start took 0.00s
-Interface start took 0.09s
+Interface start took 0.35s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Mesa Intel(R) Graphics (ADL GT2)'
-Version: b'4.6 (Compatibility Profile) Mesa 24.0.9-0ubuntu0.2'
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 67.14s
+Loading error handling took 0.04s
+Loading script took 0.22s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 144.08s
+Loading error handling took 0.03s
+Loading script took 0.14s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 147.36s
+Loading error handling took 0.03s
+Loading script took 0.14s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 153.60s
+Loading error handling took 0.03s
+Loading script took 0.14s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 177.77s
+Loading error handling took 0.03s
+Loading script took 0.12s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 263.75s
+Loading error handling took 0.03s
+Loading script took 0.16s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 288.32s
+Loading error handling took 0.03s
+Loading script took 0.14s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 318.83s
+Loading error handling took 0.03s
+Loading script took 0.15s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.03s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 346.42s
+Loading error handling took 0.03s
+Loading script took 0.15s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 355.78s
+Loading error handling took 0.03s
+Loading script took 0.15s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 390.74s
+Loading error handling took 0.02s
+Loading script took 0.15s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 395.46s
+Loading error handling took 0.03s
+Loading script took 0.15s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 454.64s
+Loading error handling took 0.03s
+Loading script took 0.15s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 471.40s
+Loading error handling took 0.02s
+Loading script took 0.14s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 494.28s
+Loading error handling took 0.03s
+Loading script took 0.15s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 520.26s
+Loading error handling took 0.02s
+Loading script took 0.14s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 522.01s
+Loading error handling took 0.03s
+Loading script took 0.16s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 144, in script
+    NY "Atitude típica de lacraia. Sua básica! Ainda fica se fazendo de vítima?"
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/ast.py", line 2573, in execute
+    Say.execute(self)
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/ast.py", line 575, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/ast.py", line 464, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'NY' is not defined.
+
+While running game code:
+  File "game/script.rpy", line 144, in script
+    NY "Atitude típica de lacraia. Sua básica! Ainda fica se fazendo de vítima?"
+Exception: Sayer 'NY' is not defined.
+
+Full traceback:
+  File "game/script.rpy", line 144, in script
+    NY "Atitude típica de lacraia. Sua básica! Ainda fica se fazendo de vítima?"
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/ast.py", line 2573, in execute
+    Say.execute(self)
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/ast.py", line 575, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/ast.py", line 464, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'NY' is not defined.
+
+While running game code:
+  File "game/script.rpy", line 144, in script
+    NY "Atitude típica de lacraia. Sua básica! Ainda fica se fazendo de vítima?"
+Exception: Sayer 'NY' is not defined.
+Resetting cache.
+Early init took 576.42s
+Loading error handling took 0.03s
+Loading script took 0.14s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 620.61s
+Loading error handling took 0.03s
+Loading script took 0.15s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 628.35s
+Loading error handling took 0.03s
+Loading script took 0.15s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 657.28s
+Loading error handling took 0.03s
+Loading script took 0.14s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 681.58s
+Loading error handling took 0.03s
+Loading script took 0.16s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 721.03s
+Loading error handling took 0.03s
+Loading script took 0.15s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 752.92s
+Loading error handling took 0.03s
+Loading script took 0.15s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 786.75s
+Loading error handling took 0.02s
+Loading script took 0.15s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 207, in script
+    show dario_padrao at center with mov
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/ast.py", line 1357, in execute
+    paired = renpy.python.py_eval(self.paired)
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 207, in <module>
+    show dario_padrao at center with mov
+NameError: name 'mov' is not defined
+
+While running game code:
+  File "game/script.rpy", line 207, in script
+    show dario_padrao at center with mov
+  File "game/script.rpy", line 207, in <module>
+    show dario_padrao at center with mov
+NameError: name 'mov' is not defined
+Resetting cache.
+Early init took 788.50s
+Loading error handling took 0.03s
+Loading script took 0.14s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Early init took 890.17s
+Loading error handling took 0.03s
+Loading script took 0.14s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to '/home/zoenspi/.renpy/backups/HogUSP':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.11s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'AMD'"
+Renderer: b'AMD Radeon Graphics (radeonsi, renoir, LLVM 15.0.7, DRM 3.57, 6.9.3-76060903-generic)'
+Version: b'4.6 (Compatibility Profile) Mesa 24.0.3-1pop1~1711635559~22.04~7a9f319'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1236, 695) drawable=(1236, 695)
 Maximum texture size: 4096x4096
