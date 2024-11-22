@@ -161,6 +161,7 @@ define config.window_icon = "gui/window_icon.png"
 ## distribuição.
 
 init python:
+    renpy.music.register_channel("music2", "music", loop=True)
 
     ## As funções a seguir aceitam padrões de arquivos. Os padrões de arquivos
     ## não diferenciam maiúsculas de minúsculas e são comparados com o

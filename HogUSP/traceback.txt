@@ -1,28 +1,32 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 207, in script
-    show dario_padrao at center with mov
-  File "game/script.rpy", line 207, in <module>
-    show dario_padrao at center with mov
-NameError: name 'mov' is not defined
+  File "game/script.rpy", line 193, in script
+    unknownLa "…" with flashbulb3
+  File "game/script.rpy", line 193, in <module>
+    unknownLa "…" with flashbulb3
+NameError: name 'flashbulb3' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 207, in script
-    show dario_padrao at center with mov
-  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/ast.py", line 1357, in execute
-    paired = renpy.python.py_eval(self.paired)
+  File "game/script.rpy", line 193, in script
+    unknownLa "…" with flashbulb3
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/ast.py", line 2573, in execute
+    Say.execute(self)
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/ast.py", line 614, in execute
+    say_menu_with(self.with_, renpy.game.interface.set_transition)
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/ast.py", line 429, in say_menu_with
+    what = renpy.python.py_eval(expression)
   File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/python.py", line 1209, in py_eval
     return py_eval_bytecode(code, globals, locals)
   File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/python.py", line 1202, in py_eval_bytecode
     return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 207, in <module>
-    show dario_padrao at center with mov
-NameError: name 'mov' is not defined
+  File "game/script.rpy", line 193, in <module>
+    unknownLa "…" with flashbulb3
+NameError: name 'flashbulb3' is not defined
 
 Linux-6.9.3-76060903-generic-x86_64-with-glibc2.35 x86_64
 Ren'Py 8.3.2.24090902
 HogUSP 1.0
-Thu Nov 21 17:01:53 2024
+Thu Nov 21 22:32:59 2024

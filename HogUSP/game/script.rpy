@@ -38,6 +38,8 @@ image escola_overlay_red = Composite(
 # EFEITOS ====================================================================
 
 define flashbulb = Fade(0.5, 0.0, 0.5, color="#b10000")
+define flashbulb2 = Fade(0.5, 0.0, 6, color="#000000")
+define flashbulb3 = Fade(0.1, 0.0, 0.9, color="#FFFFFF")
 
 # JOGO =======================================================================
 
@@ -87,12 +89,19 @@ label start:
 
     scene escola_overlay_red with flashbulb
 
+    play music "tensão.mp3" fadein 2.0
+    $ renpy.music.set_volume(0.5)
+
+    Nar "Você acorda em um ambiente estranho, sob uma luz vermelha, quando escuta..."
+
     show nyc_padrao
 
     unknownNy "CALADA! Pode bancar de inteligente, mas é uma burrinha!"
 
     unknownNy "Vê se você acha nesse livro onde nós ainda somos amigas!" 
 
+    voice "soco.mp3"
+    queue sound "mulher_grito.mp3"
     Nar "A garota arremessa o livro na direção de uma garota na sala." with hpunch
 
     show nyc_padrao at right with move
@@ -100,7 +109,11 @@ label start:
 
     unknownLu "Ny… o que você tá… !!!"
 
-    scene bg escola with flashbulb
+    stop music fadeout 2.0
+    scene bg escola with flashbulb2
+
+    play music "class.mp3" fadein 2.0
+    $ renpy.music.set_volume(0.2)
 
     Nar "Você acorda, sentado na sua mesa."
 
@@ -123,6 +136,7 @@ label start:
     Da "Agora temos o clube de futebol 2! É um esporte novo que tá bem na moda."
     Da "Reitero que hoje à tarde tem treino. Queria saber se você tá afim de —"
 
+    voice "batida_porta.mp3"
     Nar "Uma moça muitíssimo bem arrumada e produzida chuta a porta, abrindo ela com um estouro." with hpunch
 
     show nyc_padrao at right
@@ -155,6 +169,9 @@ label start:
     Lu "Ny… o que você tá… !!!"
 
     Nar "Nycole arremessa um livro com a força de uma diva revoltada."
+
+    voice "soco.mp3"
+    queue sound "mulher_grito.mp3"
     Nar "BLAM!" with hpunch
     Nar "O impacto é ouvido por todos, e a sala inteira se levanta para observar o estado da Luna."
 
@@ -162,16 +179,20 @@ label start:
     show lu_padrao at center with move
 
     Nar "Luna fica toda coitada no chão."
+
+    play music "mulher_choro.mp3" channel "music2"
+    $ renpy.music.set_volume(1.0, channel="music2")
+
     Nar "O livro, para a surpresa de ninguém, era um ciclista. Ele se levanta e imediatamente começa a pedalar."
 
     show lu_padrao at left with move
-    # show ciclista_padrao
+    show ciclista_padrao at right
 
-    Zo "Foi mal, tô atrasado!"
+    unknownZo "Foi mal, tô atrasado!"
 
-    Nar "Zoen sai de cena rapidamente."
+    Nar "O Ciclista sai de cena rapidamente."
 
-    # hide ciclista_padrao
+    hide ciclista_padrao
     show lu_padrao at center with move
 
     Nar "Após este evento completamente lógico e racional, todos olham para Luna."
@@ -179,13 +200,14 @@ label start:
 
     Lu "Hyuummmm… :("
 
-    # show la_foto at right
+    show la_padrao at right
 
     unknownLa "…"
 
-    Nar "Uma garota estranha tira uma foto da Luna e sai da sala, lentamente."
+    voice "camera.mp3"
+    Nar "Uma garota estranha tira uma foto da Luna e sai da sala, lentamente." with flashbulb3
 
-    #hide la_foto
+    hide la_padrao
 
     show lu_padrao at left with move
     show dario_padrao at right
@@ -198,7 +220,10 @@ label start:
     Da "Respira amiga… Coitada… Toma, eu tenho um feitiço de ibuprofeno pra você!"
 
     Nar "Dario retira um pedaço de papel azul com runas da mochila."
+    stop music channel "music2" fadeout 2.0
+    voice "dario_magica.mp3"
     Nar "Ao colocá-lo na cabeça de Luna, o papel brilha."
+
     Nar "Luna para de gemer e se levanta, ainda triste."
 
     Lu "O-Obrigada, Dario. Vou voltar a ler a minha fanfic de Parry Hotter…"
@@ -254,21 +279,33 @@ label start:
         Da "Antes de você dizer sim ou não pra proposta, deixa eu te explicar como funciona o jogo inteirinho!"
         Da "Regras do jogo: Nosso time tem 7 goleiros, e o jogo usa 3 bolas, então a melhor formação é atacar —"
 
-        Nar "O mesmo forte brilho reaparece, enquanto você está acordado." with flashbulb
+        Nar "O mesmo forte brilho reaparece, enquanto você está acordado." 
+
+        stop music fadeout 1.0
+        play music "creepy.mp3" fadein 2.0
+        $ renpy.music.set_volume(1.0)
+
+        scene escola_overlay_red with flashbulb3
+        hide dario_padrao 
 
         Nar "Repentinamente, a sua conversa totalmente interessante com o Dario é interrompida."
         Nar "Você está sonhando, novamente. Mas, desta vez, está acordado."
         Nar "E, na sala de aula, você vê…"
 
-        scene bg escola_mortos with fade
+        scene bg escola_mortos with flashbulb2
 
-        Nar "O cenário lentamente muda, para mostrar os corpos dilacerados de seus colegas de sala."
+        voice "som_tenso.mp3"
+        Nar "O cenário lentamente muda, para mostrar os corpos dilacerados de seus colegas de sala." with vpunch
 
-        Nar "O corpo de Luna, Dario e Nycole, todos esquartejados."
-        Nar "E ao olhar para baixo, você percebe que você também…"
-        Nar "Que você também vai morrer."
+        voice "som_tenso.mp3"
+        Nar "O corpo de Luna, Dario e Nycole, todos esquartejados." with hpunch
+        voice "som_tenso.mp3"
+        Nar "E ao olhar para baixo, você percebe que você também…" with vpunch
+        voice "som_tenso.mp3"
+        Nar "Que você também vai morrer." with hpunch
 
         scene bg dark with dissolve
+        stop music fadeout 5.0
 
         Nar "O cenário fica completamente preto. Você desmaiou."
 

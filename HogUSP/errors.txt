@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 33: end of line expected.
-    "bg escola.jpg";
-    ^
+File "game/script.rpy", line 195: expected statement.
+    renpy.music.set_volume(1.0, channel="music2")
+                                                 ^
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Thu Nov 21 16:31:12 2024
+Fri Nov 22 00:04:48 2024
