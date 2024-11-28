@@ -35,15 +35,36 @@ image escola_overlay_red = Composite(
     (0, 0), Solid((255, 0, 0, 128))  # A sobreposição transparente vermelha
 )
 
+image bg livro_fechado = im.Scale("/images/livro aberto.jpg", 1920, 1080)
+image bg escola_mortos = im.Scale("/images/bg escola_mortos.jpg", 1920, 1080)
+image la_padrao = im.Scale("/images/la_padrao.png", 762, 955)
+image nyc_puta1 = im.Scale("/images/nyc_puta1.png", 762, 955)
+image nyc_puta2 = im.Scale("/images/nyc_puta2.png", 762, 955)
+image dario_triste = im.Scale("/images/dario_triste.png", 762, 955)
+
 # EFEITOS ====================================================================
 
 define flashbulb = Fade(0.5, 0.0, 0.5, color="#b10000")
 define flashbulb2 = Fade(0.5, 0.0, 6, color="#000000")
 define flashbulb3 = Fade(0.1, 0.0, 0.9, color="#FFFFFF")
 
+# TRANSIÇÕES =================================================================
+
+transform slide_from_right:
+    yalign 1.0
+    xalign 2.0  # Mais fora da tela
+    linear 0.5 xalign 1.0  # Movimento mais demorado
+
+transform slide_to_right:
+    yalign 1.0
+    xalign 1.0  # Mais fora da tela
+    linear 5.0 xalign 2.0  # Movimento mais demorado
+
 # JOGO =======================================================================
 
 label start:
+
+    play music "nada.mp3" fadein 2.0
 
     scene bg dark
     
@@ -87,14 +108,15 @@ label start:
 
     Nar "..."
 
+    stop music fadeout 2.0
+    play music "visões.mp3" fadein 2.0
+
     scene escola_overlay_red with flashbulb
 
-    play music "tensão.mp3" fadein 2.0
-    $ renpy.music.set_volume(0.5)
 
     Nar "Você acorda em um ambiente estranho, sob uma luz vermelha, quando escuta..."
 
-    show nyc_padrao
+    show nyc_puta2
 
     unknownNy "CALADA! Pode bancar de inteligente, mas é uma burrinha!"
 
@@ -102,18 +124,18 @@ label start:
 
     voice "soco.mp3"
     queue sound "mulher_grito.mp3"
-    Nar "A garota arremessa o livro na direção de uma garota na sala." with hpunch
+    Nar "A garota arremessa o livro na direção de outra na sala." with hpunch
 
-    show nyc_padrao at right with move
+    show nyc_puta1 at right with move
     show lu_padrao at left
 
     unknownLu "Ny… o que você tá… !!!"
 
     stop music fadeout 2.0
+    play music "class.mp3" fadein 5.0
+    $ renpy.music.set_volume(0.5)
     scene bg escola with flashbulb2
 
-    play music "class.mp3" fadein 2.0
-    $ renpy.music.set_volume(0.2)
 
     Nar "Você acorda, sentado na sua mesa."
 
@@ -123,6 +145,7 @@ label start:
 
     show dario_padrao
 
+    play sound "dario.mp3"
     unknownDa "De boa, zé soninho? Cuidado que camarão que dorme a onda leva!!!"
     unknownDa "Amigo, caraca… Você dormiu pesado, hein? Até babou na mesa."
     unknownDa "Relaxa que teu amigo Dario tem lencinho. Tô sempre aqui pra te ajudar!"
@@ -139,23 +162,28 @@ label start:
     voice "batida_porta.mp3"
     Nar "Uma moça muitíssimo bem arrumada e produzida chuta a porta, abrindo ela com um estouro." with hpunch
 
-    show nyc_padrao at right
+    show nyc_puta2 at right
     show dario_padrao at left with move
 
     Da "Ishhh, meu Gandalf!"
     Da "O que será agora?"
 
     hide dario_padrao
-    show nyc_padrao at center with move
+    show nyc_puta2 at center with move
 
+    play sound "nicolybrava.mp3"
     unknownNy "LUNA! Sua ordinária. Foi VOCÊ que colocou esse bilhete no meu armário!"
 
-    show nyc_padrao at right with move
+    show nyc_puta2 at right with move
     show lu_padrao at left
 
+    play sound "luna_surpresa.mp3"
+    queue sound "luna_surpresa.mp3"
     Lu "Mas… Ny, eu…. eu só tô lendo fanfic…"
 
     Ny "Atitude típica de lacraia. Sua básica! Ainda fica se fazendo de vítima?"
+    hide nyc_puta2
+    show nyc_puta1 at right
     Ny "Só VOCÊ saberia a senha do meu armário. E fica colocando bilhetes nele como se a gente ainda fosse amiga?"
 
     Lu "Mas Ny… você me disse que confiava em mim para —"
@@ -175,7 +203,7 @@ label start:
     Nar "BLAM!" with hpunch
     Nar "O impacto é ouvido por todos, e a sala inteira se levanta para observar o estado da Luna."
 
-    hide nyc_padrao
+    hide nyc_puta1
     show lu_padrao at center with move
 
     Nar "Luna fica toda coitada no chão."
@@ -200,20 +228,22 @@ label start:
 
     Lu "Hyuummmm… :("
 
-    show la_padrao at right
+    show la_padrao at slide_from_right
 
     unknownLa "…"
 
     voice "camera.mp3"
+    show la_padrao at slide_to_right
     Nar "Uma garota estranha tira uma foto da Luna e sai da sala, lentamente." with flashbulb3
 
-    hide la_padrao
 
     show lu_padrao at left with move
     show dario_padrao at right
 
     Da "Damn, Luna! Você sabe que não dá pra responder ela."
     Da "A Nicoly é uma chata. Mas o look dela tava um arraso hoje."
+
+    hide la_padrao
 
     Lu "Hyuummmmmmmmmmmmmmmmm… :("
 
@@ -258,9 +288,6 @@ label start:
 
     label afterOpcao:
 
-        # hide dario_padrao
-        # show dario_triste
-
         Da "Retornando, a nossa conversa…"
         Da "Impossível essa escola passar um dia sem drama… Ai ai."
         Da "O bom é que essa vai ser a fofoca do dia!"
@@ -268,12 +295,16 @@ label start:
         Da "Ah, mas isso é muito improvável!"
         Da "Realmente… Enfim, queria te perguntar se você gostaria de participar do clube de Fut 2!"
         Da "Importante: Eu sou o capitão, e posso te mostrar como funciona tudinho!"
+
+        hide dario_padrao
+        show dario_triste
+
         Da "O ruim é que é um pouco cansativo ser o capitão, o melhor aluno da sala e a pessoa mais simpática da escola!"
 
-        Nar "Pela primeira vez, você vê o Dario parar de sorrir por um segundo. Mas dura pouco."
+        Nar "Pela primeira vez, você vê o Dario chorar por um segundo. Mas dura pouco."
 
-        # hide dario_triste
-        # show dario_padrao
+        hide dario_triste
+        show dario_padrao
 
         Da "Deixando isso de lado, eu amo muito tudo o que faço! Não trocaria por nada."
         Da "Antes de você dizer sim ou não pra proposta, deixa eu te explicar como funciona o jogo inteirinho!"
@@ -281,7 +312,7 @@ label start:
 
         Nar "O mesmo forte brilho reaparece, enquanto você está acordado." 
 
-        stop music fadeout 1.0
+        stop music fadeout 2.0
         play music "creepy.mp3" fadein 2.0
         $ renpy.music.set_volume(1.0)
 

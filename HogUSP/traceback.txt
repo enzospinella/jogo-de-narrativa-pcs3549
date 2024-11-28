@@ -1,32 +1,34 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 193, in script
-    unknownLa "…" with flashbulb3
-  File "game/script.rpy", line 193, in <module>
-    unknownLa "…" with flashbulb3
-NameError: name 'flashbulb3' is not defined
+  File "game/script.rpy", line 229, in script
+    show la_padrao with slide_from_right
+TypeError: got an unexpected keyword argument 'old_widget'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 193, in script
-    unknownLa "…" with flashbulb3
-  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/ast.py", line 2573, in execute
-    Say.execute(self)
-  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/ast.py", line 614, in execute
-    say_menu_with(self.with_, renpy.game.interface.set_transition)
-  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/ast.py", line 429, in say_menu_with
-    what = renpy.python.py_eval(expression)
-  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/python.py", line 1209, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/python.py", line 1202, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 193, in <module>
-    unknownLa "…" with flashbulb3
-NameError: name 'flashbulb3' is not defined
+  File "game/script.rpy", line 229, in script
+    show la_padrao with slide_from_right
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/ast.py", line 1361, in execute
+    renpy.exports.with_statement(trans, paired=paired)
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/exports/statementexports.py", line 257, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/display/core.py", line 1578, in do_with
+    return self.interact(trans_pause=True,
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/display/core.py", line 2215, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/display/core.py", line 2666, in interact_core
+    trans = instantiate_transition(None, old_root, layers_root)
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/display/core.py", line 2575, in instantiate_transition
+    trans = self.ongoing_transition[layer](
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/atl.py", line 623, in __call__
+    new_scope = signature.apply(args, kwargs, partial=True, apply_defaults=False)
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/parameter.py", line 384, in apply
+    raise TypeError(
+TypeError: got an unexpected keyword argument 'old_widget'
 
 Linux-6.9.3-76060903-generic-x86_64-with-glibc2.35 x86_64
 Ren'Py 8.3.2.24090902
 HogUSP 1.0
-Thu Nov 21 22:32:59 2024
+Wed Nov 27 01:00:41 2024
