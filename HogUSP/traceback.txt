@@ -1,34 +1,30 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 229, in script
-    show la_padrao with slide_from_right
-TypeError: got an unexpected keyword argument 'old_widget'
+  File "game/script.rpy", line 347, in script
+    scene bg enfermaria alpha 0.33
+Exception: Image 'bg enfermaria' does not accept attributes 'alpha 0 .33'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 229, in script
-    show la_padrao with slide_from_right
-  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/ast.py", line 1361, in execute
-    renpy.exports.with_statement(trans, paired=paired)
-  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/exports/statementexports.py", line 257, in with_statement
-    return renpy.game.interface.do_with(trans, paired, clear=clear)
-  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/display/core.py", line 1578, in do_with
-    return self.interact(trans_pause=True,
-  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/display/core.py", line 2215, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/display/core.py", line 2666, in interact_core
-    trans = instantiate_transition(None, old_root, layers_root)
-  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/display/core.py", line 2575, in instantiate_transition
-    trans = self.ongoing_transition[layer](
-  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/atl.py", line 623, in __call__
-    new_scope = signature.apply(args, kwargs, partial=True, apply_defaults=False)
-  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/parameter.py", line 384, in apply
-    raise TypeError(
-TypeError: got an unexpected keyword argument 'old_widget'
+  File "game/script.rpy", line 347, in script
+    scene bg enfermaria alpha 0.33
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/ast.py", line 1245, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/ast.py", line 1074, in show_imspec
+    renpy.config.show(name,
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/exports/displayexports.py", line 477, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/display/image.py", line 421, in find_target
+    self.target = target._duplicate(a)
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/display/displayable.py", line 249, in _duplicate
+    args.extraneous()
+  File "/home/zoenspi/Documentos/renpy-8.3.2-sdk/renpy/display/displayable.py", line 109, in extraneous
+    raise Exception("Image '{}' does not accept attributes '{}'.".format(
+Exception: Image 'bg enfermaria' does not accept attributes 'alpha 0 .33'.
 
 Linux-6.9.3-76060903-generic-x86_64-with-glibc2.35 x86_64
 Ren'Py 8.3.2.24090902
 HogUSP 1.0
-Wed Nov 27 01:00:41 2024
+Thu Nov 28 01:26:03 2024

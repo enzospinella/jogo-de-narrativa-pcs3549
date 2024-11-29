@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 195: expected statement.
-    renpy.music.set_volume(1.0, channel="music2")
-                                                 ^
+File "game/script.rpy", line 347: end of line expected.
+    scene bg enfermaria with alpha 0.33
+                                   ^
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Fri Nov 22 00:04:48 2024
+Thu Nov 28 20:49:10 2024

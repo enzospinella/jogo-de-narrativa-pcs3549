@@ -37,6 +37,7 @@ image escola_overlay_red = Composite(
 
 image bg livro_fechado = im.Scale("/images/livro aberto.jpg", 1920, 1080)
 image bg escola_mortos = im.Scale("/images/bg escola_mortos.jpg", 1920, 1080)
+image bg enfermaria = im.Scale("/images/bg enfermaria.jpeg", 1920, 1080)
 image la_padrao = im.Scale("/images/la_padrao.png", 762, 955)
 image nyc_puta1 = im.Scale("/images/nyc_puta1.png", 762, 955)
 image nyc_puta2 = im.Scale("/images/nyc_puta2.png", 762, 955)
@@ -126,7 +127,9 @@ label start:
     queue sound "mulher_grito.mp3"
     Nar "A garota arremessa o livro na direção de outra na sala." with hpunch
 
-    show nyc_puta1 at right with move
+    show nyc_puta2 at right with move
+    show nyc_puta1 at right
+    hide nyc_puta2
     show lu_padrao at left
 
     unknownLu "Ny… o que você tá… !!!"
@@ -220,7 +223,7 @@ label start:
 
     Nar "O Ciclista sai de cena rapidamente."
 
-    hide ciclista_padrao
+    show ciclista_padrao at slide_to_right
     show lu_padrao at center with move
 
     Nar "Após este evento completamente lógico e racional, todos olham para Luna."
@@ -228,6 +231,7 @@ label start:
 
     Lu "Hyuummmm… :("
 
+    hide ciclista_padrao
     show la_padrao at slide_from_right
 
     unknownLa "…"
@@ -326,19 +330,28 @@ label start:
         scene bg escola_mortos with flashbulb2
 
         voice "som_tenso.mp3"
-        Nar "O cenário lentamente muda, para mostrar os corpos dilacerados de seus colegas de sala." with vpunch
+        Nar "{b}O CENÁRIO LENTAMENTE MUDA, PARA MOSTRAR OS CORPOS {color=#c40000}DILACERADOS{/color} DE SEUS COLEGAS DE SALA.{/b}" with vpunch
 
         voice "som_tenso.mp3"
-        Nar "O corpo de Luna, Dario e Nycole, todos esquartejados." with hpunch
+        Nar "{b}O CORPO DE LUNA, DARIO E NICOLE, {color=#c40000}TODOS ESQUARTEJADOS{/color}.{/b}" with hpunch
         voice "som_tenso.mp3"
-        Nar "E ao olhar para baixo, você percebe que você também…" with vpunch
+        Nar "{b}E AO OLHAR PARA BAIXO, VOCÊ PERCEBE QUE VOCÊ TAMBÉM...{/b}" with vpunch
         voice "som_tenso.mp3"
-        Nar "Que você também vai morrer." with hpunch
+        Nar "{b}QUE VOCÊ TAMBÉM {color=#c40000}VAI MORRER{/color}.{/b}" with hpunch
 
-        scene bg dark with dissolve
         stop music fadeout 5.0
+        play music "nada.mp3" fadein 2.0
+        scene bg dark with dissolve
 
         Nar "O cenário fica completamente preto. Você desmaiou."
+
+        scene bg enfermaria with flashbulb2
+
+        Nar "Sua visão lentamente volta ao normal. No entanto, seu corpo ainda sente dor. Machucados, bem onde haviam cortes…"
+
+        Nar "Você olha para baixo, na sua barriga. Havia um corte bem em seu estômago, e agora não há nada. A dor, aos poucos some."
+
+        Nar "Você pensa que isso tudo deve ter sido uma visão."
 
     # This ends the game.
 

@@ -92,8 +92,8 @@ define gui.title_text_size = 75
 ## Menus principal e de jogos ##################################################
 
 ## As imagens usadas nos menus principal e de jogo.
-define gui.main_menu_background = "gui/main_menu.png"
-define gui.game_menu_background = "gui/game_menu.png"
+define gui.main_menu_background = im.Scale("gui/main_menu.png", 1920, 1080)
+define gui.game_menu_background = im.Scale("gui/game_menu.png", 1920, 1080)
 
 
 ## Diálogo #####################################################################
